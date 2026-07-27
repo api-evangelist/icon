@@ -1,8 +1,19 @@
 aid: icon
 name: ICON
-description: ICON is a company surfaced as a portfolio company of bond-capital, pantera-capital and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  ICON Technology, Inc. is an Austin, Texas construction-technology company building
+  large-scale robotic 3D printing systems, materials, and software to make home
+  building faster, more affordable, and more resilient. Its flagship Titan 3D
+  construction printer, orchestrated by the proprietary BuildOS software that
+  translates architectural designs into robotic tool paths and manages material
+  flow, can print the wall system of a 2,500 sq. ft. home in under seven days. ICON
+  operates a Design + Build division delivering 3D-printed homes and communities, a
+  Technology division selling its printers and building systems to other builders,
+  the CODEX digital home design catalog, and ICON Prime. The company is privately
+  held and backed by investors including Bond Capital and Pantera Capital. This
+  profile was added to the API Evangelist network from a venture-portfolio lead;
+  ICON publishes a marketing and product presence but no public developer API,
+  documentation, or SDK surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/icon/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +22,30 @@ x-backed-by:
 - pantera-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://cdn.prod.website-files.com/696aa403bbe74c1adbd1ed11/698e4e7baf389744712cd730_ab684b7971274408c043314790525906_icon-opengraph.png
 tags:
 - Company
+- Construction
+- Construction Technology
+- 3D Printing
+- Robotics
+- Home Building
+- Real Estate
+- Manufacturing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +55,35 @@ maintainers:
 common:
 - type: Website
   url: https://iconbuild.com
+- type: Technology
+  name: Technology (Titan 3D Construction Printer)
+  url: https://www.iconbuild.com/technology
+- type: Product
+  name: Design + Build
+  url: https://www.iconbuild.com/design-build
+- type: Product
+  name: CODEX Digital Home Design Catalog
+  url: https://codex.iconbuild.com
+- type: Product
+  name: ICON Prime
+  url: https://www.iconbuild.com/prime
+- type: Newsroom
+  name: Newsroom
+  url: https://www.iconbuild.com/newsroom
+- type: Support
+  name: Contact
+  url: https://www.iconbuild.com/contact
+- type: Careers
+  name: Careers
+  url: https://www.iconbuild.com/careers
+- type: TermsOfService
+  name: Terms of Use
+  url: https://www.iconbuild.com/legal
+- type: PrivacyPolicy
+  name: Privacy Policy
+  url: https://www.iconbuild.com/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
